@@ -248,3 +248,32 @@ body {
     text-align: center;
     padding-bottom: 5px;
 }
+.agico{
+    background: radial-gradient(blue, purple);
+    padding: 120px 0;
+    color: white;
+}
+.agico-content{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.images{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.shoppy{
+    width: 6%;
+}
+.logo-4{
+    padding: 10px 0;
+}
+.download-new{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+.lorem{
+    font-size: 13px;
+}
