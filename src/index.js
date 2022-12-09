@@ -1,21 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import './index.css';
-import Header from './components/header';
-import Hero from './components/hero'
-import Banner from "./components/banner";
-import Aside from "./components/aside";
-import Counter from "./components/counter";
-function Contents() {
-  return (
-    <body className="heading">
-      <Header />
-      <Hero />
-      <Banner />
-      <Aside />
-      <Counter/>
-    </body>
-  )
-}
+// import './index.css';
+import App from "./App";
+import {BrowserRouter} from 'react-router-dom'
 
-ReactDOM.render(<Contents/>, document.getElementById("root")) 
+ReactDOM.render(
+  <BrowserRouter>
+    <App></App>
+  </BrowserRouter>,
+  document.getElementById("root")
+);
