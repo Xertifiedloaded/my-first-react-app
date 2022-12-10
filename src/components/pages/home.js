@@ -1,7 +1,11 @@
 import React from "react";
+
 export default function Home() {
+    
     return (
+        
         <div>
+            
             <section className="hero-bar">
                 <div className="container">
                     <div className="hero-container">
@@ -115,19 +119,19 @@ export default function Home() {
                 <div className="counter">
 
                     <div className="number-new">
-                        <h1 className="count">8k+</h1>
+                        <h1 className="count" datatype="8000">8k+</h1>
                         <div className="download">Download per day</div>
                     </div>
                     <div className="number-new">
-                        <h1 className="count">20k+</h1>
+                        <h1 className="count" datat-val="20000">20k+</h1>
                         <div className="award">Design Awards</div>
                     </div>
                     <div className="number-new">
-                        <h1 className="count">25k+</h1>
+                        <h1 className="count" data-val="25000">25k+</h1>
                         <div className="total">Total Satisfied Awards</div>
                     </div>
                     <div className="number-new">
-                        <h1 className="count">30k+</h1>
+                        <h1 className="count" data-val="30000">30k+</h1>
                         <div className="people">People Behind This App</div>
                     </div>
                 </div>
@@ -142,11 +146,8 @@ export default function Home() {
                                 <img className="shoppy" src="/images/slack.png" alt="" />
                                 <img className="shoppy" src="/images/open-tracker.png" alt="" />
                                 <img className="shoppy" src="/images/shopify.png" alt="" />
-
                             </div>
                         </div>
-
-
                     </div>
                 </section>
             </section>

@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import './index'
 import './index.css';
 import Header from './components/header';
@@ -24,9 +25,9 @@ function App() {
                 <Route path="/team" element={<Team></Team>}></Route>
                 <Route path="/career" element={<Career></Career>}></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
-                <Route path="/signup"></Route>
+                <Route path="/signup" element={<Login></Login>}></Route>
             </Routes>
-          
+
         </section>
     )
 }
