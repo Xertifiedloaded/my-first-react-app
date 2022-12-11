@@ -13,6 +13,16 @@ const navInfo = {
     buttonInfo: "sign up",
 }
 function Header() {
+    function show() {
+        let hide = document.querySelector(".hide")
+        hide.classList.replace("hide", "show")
+        console.log(hide)
+    }
+    function hide() {
+        let show = document.querySelector(".show")
+        console.log(show)
+        show.classList.replace("show", "hide")
+    }
     return (
         <section className="mysection">
             <nav className="head">
@@ -21,8 +31,7 @@ function Header() {
                         <div className="icon-container">
                             <img src={information.src} alt="" />
                         </div>
-                        <nav className="nav">
-
+                        <nav className="nav desktop">
                             <ul className="nav-menu">
                                 <li className="nav-item">
                                     <a href="/">{navInfo.home}</a>
@@ -53,10 +62,50 @@ function Header() {
                             </ul>
 
                         </nav>
+                        <nav className="nav mobile">
+                            <span className="hamburger"><i onClick={show} class="fa-solid solid fa-bars"></i></span>
+                            <div className="nav-hidder hide">
+                                <div className="container">
+                                    <div className="mark">
+                                        <i onClick={hide} class="fa-solid fa-xmark xsolid"></i>
+                                    </div>
+                                    <ul className="my-menu">
+                                        <ul className="nav-menu">
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/">{navInfo.home}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/about">{navInfo.about}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/service">{navInfo.service}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/team">{navInfo.team}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/price">{navInfo.price}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/career">{navInfo.career}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <a className="mobile-anchor" href="/contact">{navInfo.contact}</a>
+                                            </li>
+                                            <li className="nav-item">
+                                                <button className="nav-btn">
+                                                    <a className="mobile-anchor" href="/signup">{navInfo.buttonInfo}</a>
+                                                </button>
+                                            </li>
+                                        </ul>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
                     </div>
                 </div>
             </nav>
-           
+
 
         </section>
     )

@@ -10,7 +10,7 @@ import Career from "./components/pages/career";
 import Contact from "./components/pages/contact";
 import Service from "./components/pages/service";
 import Team from "./components/pages/team";
-
+import Footer from "./components/footer";
 import { Routes, Route } from 'react-router-dom'
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
                 <Route path="/contact" element={<Contact></Contact>}></Route>
                 <Route path="/signup" element={<Login></Login>}></Route>
             </Routes>
-
+            <Footer></Footer>
         </section>
     )
 }

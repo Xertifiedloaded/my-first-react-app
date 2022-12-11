@@ -1,11 +1,12 @@
 import React from "react";
-
+import Client from "../client";
+import Swiper from "../swiper";
+// import Footer from "../footer";
 export default function Home() {
-    
     return (
-        
+
         <div>
-            
+
             <section className="hero-bar">
                 <div className="container">
                     <div className="hero-container">
@@ -151,6 +152,14 @@ export default function Home() {
                     </div>
                 </section>
             </section>
+            <Swiper></Swiper>
+            {/* client side */}
+            <section>
+                <Client></Client>
+                {/* <Footer></Footer> */}
+            </section>
         </div>
+
+
     )
 }
