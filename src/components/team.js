@@ -20,7 +20,7 @@ export default function Team() {
                                         <p className="name2">Noil Robert</p>
                                         <p>marketter</p>
                                         <span className="member-social">
-                                            <i class="fa-brands fa-facebook" style={{color:"blue", fontSize:"17px"}}></i>
+                                            <i class="fa-brands fa-facebook" style={{ color: "blue", fontSize: "17px" }}></i>
                                             <i class="fa-brands fa-twitter" style={{ color: "white", fontSize: "17px" }}></i>
                                             <i class="fa-brands fa-instagram" style={{ color: "purple", fontSize: "17px" }}></i>
                                             <i class="fa-brands fa-snapchat" style={{ color: "yellow", fontSize: "17px" }}></i>
@@ -68,5 +68,5 @@ export default function Team() {
                 </div>
             </section>
         </React.Fragment>
-    )
+    );
 }
