@@ -45,7 +45,7 @@ export default function About() {
                         <div className="cards">
                             <div className="card1">
                                 <div className="card1-container">
-                                    <i class="fa-solid fa-tv" style={{color:"red", fontSize:"35px"}}></i>
+                                    <i class="fa-solid fa-tv" style={{ color: "red", fontSize: "35px" }}></i>
                                     <p className="networking">networking</p>
                                     <p className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
                             </div>
@@ -57,13 +57,13 @@ export default function About() {
                             </div>
                             <div className="card1">
                                 <div className="card1-container">
-                                    <i class="fa-brands fa-modx icon1" style={{  fontSize: "35px" }}></i>
+                                    <i class="fa-brands fa-modx icon1" style={{ fontSize: "35px" }}></i>
                                     <p className="networking">networking</p>
-                                    <p   className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
+                                    <p className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
                             </div>
                             <div className="card1">
                                 <div className="card1-container">
-                                    <i class="fa-regular fa-clock icon1 " style={{fontSize: "35px" }}></i>
+                                    <i class="fa-regular fa-clock icon1 " style={{ fontSize: "35px" }}></i>
                                     <p className="networking">networking</p>
                                     <p className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
                             </div>
@@ -95,7 +95,7 @@ export default function About() {
                                 <div className="card1-container">
                                     <i class="fa-brands fa-bandcamp icon1" style={{ color: "purple", fontSize: "35px" }}>  </i>
                                     <p className="networking">networking</p>
-                                    <p  className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
+                                    <p className="dedication">We at agico, are willing and able to help you create an exclusive design of your choice.</p></div>
                             </div>
                         </div>
                     </div>
@@ -105,5 +105,5 @@ export default function About() {
                 <Team></Team>
             </section>
         </React.Fragment>
-    )
+    );
 }
