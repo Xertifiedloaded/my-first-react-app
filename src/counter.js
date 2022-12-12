@@ -37,5 +37,5 @@ export default function Counter() {
                 </div>
             </section>
         </section>
-    )
+    ); 
 }
