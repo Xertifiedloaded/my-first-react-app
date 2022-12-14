@@ -113,16 +113,12 @@ export default function Home() {
                             </div>
                         </div>
                     </div>
-
                 </div>
-
             </section>
-     <Counter></Counter>
+            <Counter></Counter>
             <Swiper></Swiper>
-            {/* client side */}
             <section>
                 <Client></Client>
-                {/* <Footer></Footer> */}
             </section>
         </div>
 

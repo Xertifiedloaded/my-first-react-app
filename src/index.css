@@ -127,16 +127,26 @@ body {
 
 .fluid-container {
     display: flex;
+    width: 100%;
     align-items: center;
+    /* justify-content: center; */
     margin-bottom: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
     gap: 10px;
 }
 
 .solid {
     font-size: 30px;
 }
-
+.features{
+padding-top: 30px;
+    text-align: center;
+}ƒ
+.features>p{
+    font-size: 20px;
+    padding: 5px 0;
+    text-transform: capitalize;
+}
 .fluid {
     width: 30%;
     box-shadow: var(--box-shadow);
@@ -664,6 +674,7 @@ legend {
     display: flex;
     justify-content: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 .team-heading {
@@ -724,6 +735,75 @@ legend {
     justify-content: center;
     padding: 10px 0;
 }
+
+.service-info{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.table-head{
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    text-transform: capitalize;
+}
+.tab{
+    width: 30%;
+    /* line-height: 3; */
+    /* padding: 30px 0; */
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.283);
+    border-radius: 10px;
+}
+.table{
+    margin-top: 20px;
+    text-align: center;
+}
+.plan{
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.basic{
+    padding: 10px 0;
+    font-size: 25px;
+}
+.amount{
+    padding: 10px 0;
+    font-size: 20px;
+}
+.individual{
+    padding: 10px 0;
+}
+.express{
+    padding: 10px 0;
+}
+.custom{
+    padding: 10px 0;
+}
+.time-critical{
+    padding: 10px 0;
+}
+.price-btn{
+    margin: 20px 0;
+}
+
+.price-btn>button{
+padding: 10px 80px;
+text-transform: capitalize;
+border:1px solid #28a745;
+    color: turquoise;
+background: none;
+border-radius: 10px;
+}
+.price-btn> button:hover{
+    background-color: #28a745;
+    color: black;
+}
+
+
+
+
 
 
 @media screen and (max-width:600px) {

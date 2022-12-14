@@ -9,7 +9,7 @@ const navInfo = {
     team: "team",
     price: "our price",
     contact: "contact",
-    career: "carrer",
+    career: "career",
     buttonInfo: "sign up",
 }
 function Header() {

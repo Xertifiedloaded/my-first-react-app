@@ -5,6 +5,7 @@ export default function Team() {
         <React.Fragment>
             <section>
                 <div className="container">
+                    
                     <div className="team">
                         <div className="team-heading">
                             <small>Team</small>
