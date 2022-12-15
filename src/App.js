@@ -13,6 +13,7 @@ import Team from "./components/pages/team";
 import Footer from "./components/footer";
 import Price from "./components/pages/price";
 import { Routes, Route } from 'react-router-dom'
+import Products from "./components/pages/product";
 
 function App() {
     return (
@@ -28,9 +29,11 @@ function App() {
                 <Route path="/career" element={<Career></Career>}></Route>
                 <Route path="/contact" element={<Contact></Contact>}></Route>
                 <Route path="/signup" element={<Login></Login>}></Route>
+                <Route path="/products" element={<Products/>}></Route>
             </Routes>
             <Footer></Footer>
+
         </section>
     )
 }
-export default App
+export default App;
