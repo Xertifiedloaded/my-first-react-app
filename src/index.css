@@ -800,11 +800,25 @@ border-radius: 10px;
     background-color: #28a745;
     color: black;
 }
-
-
-
-
-
+/* github */
+.users{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.list{
+    width: 30%;
+}
+.git-img-container{
+    width: 20%;
+}
+.git-img{
+    width: 100%;
+}
+.github{
+    text-align: center;
+}
 
 @media screen and (max-width:600px) {
     .desktop {
