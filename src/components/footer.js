@@ -21,27 +21,27 @@ export default function Footer() {
                             <div className="footer-social">
                                 <ul className="social-menu">
                                     <li className="menu-heading">
-                                        services
+                                   <span>service</span>
                                     </li>
                                     <li className="menu-item">
                                         <i class="fa-solid fa-angles-right"></i>
-                                        company history
+                                        <span> company history</span>
                                     </li>
                                     <li className="menu-item">
                                         <i class="fa-solid fa-angles-right"></i>
-                                        about us
+                                        <span> about us</span>
                                     </li>
                                     <li className="menu-item">
                                         <i class="fa-solid fa-angles-right"></i>
-                                        contact us
+                                        <span>contact us</span>
                                     </li>
                                     <li className="menu-item">
                                         <i class="fa-solid fa-angles-right"></i>
-                                        services
+                                        <span>services</span>
                                     </li>
                                     <li className="menu-item">
                                         <i class="fa-solid fa-angles-right"></i>
-                                        privacy policy
+                                        <span> privacy policy</span>
                                     </li>
                                 </ul>
                                 <ul className="social-menu">

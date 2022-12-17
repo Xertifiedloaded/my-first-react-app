@@ -138,15 +138,18 @@ body {
 .solid {
     font-size: 30px;
 }
-.features{
-padding-top: 30px;
+
+.features {
+    padding-top: 30px;
     text-align: center;
-}ƒ
-.features>p{
+}
+
+ƒ .features>p {
     font-size: 20px;
     padding: 5px 0;
     text-transform: capitalize;
 }
+
 .fluid {
     width: 30%;
     box-shadow: var(--box-shadow);
@@ -513,6 +516,8 @@ small {
 
 .menu-item {
     padding: 5px 0;
+    display: flex;
+    gap: 5px;
     text-transform: capitalize;
     text-decoration: solid;
 }
@@ -726,28 +731,31 @@ legend {
     font-size: 18px;
     /* padding: 5px 0; */
 }
-.fullname>p{
+
+.fullname>p {
     padding: 5px 0;
 }
-.member-social{
+
+.member-social {
     display: flex;
     gap: 10px;
     justify-content: center;
     padding: 10px 0;
 }
 
-.service-info{
+.service-info {
     width: 60%;
     margin: 0 auto;
 }
 
-.table-head{
+.table-head {
     display: flex;
     width: 100%;
     gap: 20px;
     text-transform: capitalize;
 }
-.tab{
+
+.tab {
     width: 30%;
     /* line-height: 3; */
     /* padding: 30px 0; */
@@ -755,70 +763,221 @@ legend {
     border: 1px solid rgba(0, 0, 0, 0.283);
     border-radius: 10px;
 }
-.table{
+
+.table {
     margin-top: 20px;
     text-align: center;
 }
-.plan{
+
+.plan {
     padding: 10px;
     font-size: 20px;
     text-transform: capitalize;
 }
-.basic{
+
+.basic {
     padding: 10px 0;
     font-size: 25px;
 }
-.amount{
+
+.amount {
     padding: 10px 0;
     font-size: 20px;
 }
-.individual{
+
+.individual {
     padding: 10px 0;
 }
-.express{
+
+.express {
     padding: 10px 0;
 }
-.custom{
+
+.custom {
     padding: 10px 0;
 }
-.time-critical{
+
+.time-critical {
     padding: 10px 0;
 }
-.price-btn{
+
+.price-btn {
     margin: 20px 0;
 }
 
-.price-btn>button{
-padding: 10px 80px;
-text-transform: capitalize;
-border:1px solid #28a745;
+.price-btn>button {
+    padding: 10px 80px;
+    text-transform: capitalize;
+    border: 1px solid #28a745;
     color: turquoise;
-background: none;
-border-radius: 10px;
+    background: none;
+    border-radius: 10px;
 }
-.price-btn> button:hover{
+
+.price-btn>button:hover {
     background-color: #28a745;
     color: black;
 }
+
 /* github */
-.users{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.users {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
-.list{
+
+.list {
     width: 30%;
 }
-.git-img-container{
+
+.git-img-container {
     width: 20%;
 }
-.git-img{
+
+.git-img {
     width: 100%;
 }
-.github{
+
+.github {
     text-align: center;
 }
+
+.jobs {
+    width: 50%;
+    text-transform: capitalize;
+}
+
+.jobs>.job {
+    text-transform: capitalize;
+    padding: 20px 0;
+}
+
+.jobs>h6 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.best-card {
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+}
+
+.the-best {
+    width: 25%;
+    padding: 50px 0;
+    box-shadow: silver 3px 2px 3px 2px
+}
+
+.best-img-cont {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.best-content>p {
+    padding: 5px 0;
+    text-align: center;
+}
+
+.job-btn {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.apply {
+    padding: 10px 50px;
+    border-radius: 10px;
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+    text-transform: capitalize;
+}
+
+.heading6 {
+    font-size: 12px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.features {
+    padding: 10px 0;
+}
+
+.best-job {
+    margin-top: 50px;
+}
+
+.frame {
+    width: 100%;
+}
+
+.form-box {
+    width: 100%;
+
+    gap: 10px;
+}
+
+.input {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px 0;
+}
+
+.msg {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.message {
+    margin: 20px 0;
+}
+
+::placeholder {
+    text-transform: capitalize;
+}
+
+.leave {
+    font-size: 18px;
+    text-transform: capitalize;
+    padding-top: 10px;
+}
+
+.sp {
+    text-transform: capitalize;
+}
+
+.form-btn-div {
+    margin: 10px 0;
+    /* text-align: center; */
+}
+
+.form-btn {
+    padding: 7px 60px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    font-size: 16px;
+    border: 1px solid green;
+    background: linear-gradient(to right, turquoise, greenyellow);
+    color: white;
+    text-transform: capitalize;
+}
+
+.form-btn:hover {
+    background: transparent;
+    color: black;
+}
+
+.input-div {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
 
 @media screen and (max-width:600px) {
     .desktop {
@@ -841,6 +1000,15 @@ border-radius: 10px;
         display: block;
         margin: 0;
         padding: 0;
+    }
+
+    .input-div {
+        display: block;
+    }
+
+    .input {
+        width: 100%;
+        padding: 15px 0;
     }
 
     .box-item {
@@ -1021,10 +1189,42 @@ border-radius: 10px;
     .about-container {
         width: 80%;
     }
-    .teams{
+
+    .teams {
         display: block;
     }
-    .each-team{
+
+    .each-team {
         width: 100%;
     }
+
+    .jobs {
+        width: 100%;
+        text-align: center;
+    }
+
+    .best-card {
+        display: block;
+    }
+
+    .the-best {
+        width: 100%;
+    }
+
+    .table-head {
+        display: block;
+    }
+
+    .tab {
+        width: 100%;
+    }
+
+
+
+
+
+
+
+
+
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-const url = 'https://api.github.com/users'
+
 // const url = 'https://dummyjson.com/products'
 const Products = () => {
     // API
@@ -41,7 +41,7 @@ const Products = () => {
     //     })
 
 
-
+    const url = 'https://api.github.com/users'
     const [users, setUser] = useState([])
     const fetchUser = async () => {
         const response = await fetch(url)
