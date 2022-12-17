@@ -441,11 +441,13 @@ a {
 
 .learn {
     font-size: 35px;
-    padding-bottom: 10px;
+   padding: 15px  0;
 }
 
 small {
     text-transform: capitalize;
+    padding: 30px 0;
+    width: 100%;
     font-weight: 400;
 }
 
@@ -927,7 +929,7 @@ legend {
 }
 
 .msg {
-    text-align: center;
+    text-align: start;
     padding: 20px 0;
 }
 

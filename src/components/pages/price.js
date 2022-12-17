@@ -77,9 +77,9 @@ export default function Price() {
                             </div>
                         </div>
                     </div>
-                    <Swiper></Swiper>
                 </div>
             </section>
+            <Swiper></Swiper>
         </React.Fragment>
     )
 }
